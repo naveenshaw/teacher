@@ -28,6 +28,10 @@ module.exports = {
       label: "About Me",
       path: "/about",
     },
+    {
+      label: "Teacher's day",
+      path: "/teachers-day",
+    },
   ],
   projects: [
     {
