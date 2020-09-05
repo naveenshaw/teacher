@@ -1,0 +1,21 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+.button-container {
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+  .button {
+    padding: 0.5rem 1.2rem;
+    background-color: var(--color-base);
+    color: var(--color-secondary);
+    border: 0.16rem solid rgba(255, 255, 255, 0);
+    border-radius: $button-border-radius;
+    font-weight: 700;
+    text-shadow: 0 0.04em 0.04em rgba(0, 0, 0, 0.35);
+    font-size: 26px;
+  }
+}

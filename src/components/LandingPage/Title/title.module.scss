@@ -1,0 +1,34 @@
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+.particles {
+  position: absolute;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  @include padding-equal(0.5);
+  align-items: center;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  h1 {
+    @include margin-top(1);
+  }
+
+  .highlighter {
+    color: var(--color-primary);
+  }
+}
+
+@include breakpoint-md {
+  .wrapper {
+    height: 90vh;
+    @include padding(0, 0, 0, 2);
+  }
+}

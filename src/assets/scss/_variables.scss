@@ -1,0 +1,60 @@
+/** 
+ * Variables
+ */
+
+// Colors
+body.light {
+  margin-left: 0;
+  --bg: #f3f3ef;
+  --textNormal: #222;
+  --color-base: #222;
+  --color-primary: #5d93ff;
+  --color-secondary: #f7a046;
+  --color-gray: grey;
+  --color-gray-border: #d2d2d2;
+  --color-gray-bg: grey;
+}
+
+body.dark {
+  margin-left: 0;
+  -webkit-font-smoothing: antialiased;
+  --bg: #282c35;
+  --textNormal: rgba(255, 255, 255, 0.88);
+  --color-base: #d91f5c;
+  --color-primary: var(--color-secondary);
+  --color-secondary: #f7a046;
+  --color-gray: grey;
+  --color-gray-border: #d2d2d2;
+  --color-gray-bg: #d91f5c;
+}
+
+// Typographic
+$typographic-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+
+$typographic-root-font-size: 100;
+$typographic-base-font-size: 16px;
+$typographic-small-font-size: 14px;
+
+$typographic-base-line-height: 1.625;
+
+$typographic-base-font-color: var(--color-base);
+$typographic-link-p-font-color: var(--color-primary);
+$typographic-link-s-font-color: var(--color-secondary);
+
+$typographic-leading: round(
+  16 * ($typographic-root-font-size / 100) * $typographic-base-line-height
+);
+
+// Buttons
+$button-height: 35px;
+$button-border-radius: 20px;
+
+// Layout
+$layout-post-single-width: 945px;
+$layout-post-width: $layout-post-single-width - 305px;
+
+$layout-width: 1070px;
+$layout-breakpoint-sm: 685px;
+$layout-breakpoint-md: 960px;
+$layout-breakpoint-lg: 1100px;
