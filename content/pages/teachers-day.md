@@ -1,7 +1,7 @@
 ---
 template: page
 title: TeachersDay
-slug: Tribute
+slug: /teachers-day
 draft: true
 ---
 **The light of the world, the beacon in the dark and the hope that gives us strength to survive, is our teacher. On this beautiful occasion sir we want to gift you this website.**
