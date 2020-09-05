@@ -1,6 +1,6 @@
 ---
 template: page
-title: Teachers Day
+title: TeachersDay
 slug: Tribute
 draft: true
 ---
