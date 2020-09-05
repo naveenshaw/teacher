@@ -18,7 +18,7 @@ module.exports = {
     },
     {
       label: "Sister Nivedita University",
-      url: "https://www.snuniv.ac.in",
+      url: "www.snuniv.ac.in",
     },
     {
       label: "Achievements",
