@@ -21,7 +21,7 @@ module.exports = {
       path: "/posts",
     },
     {
-      label: "My Projects",
+      label: "Achievements",
       path: "/projects",
     },
     {
