@@ -17,7 +17,7 @@ module.exports = {
       path: "/",
     },
     {
-      label: "Blog",
+      label: "Sister Nivedita University",
       path: "/posts",
     },
     {
@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       label: "About Me",
-      path: "/about",
+      link: "https://snuniv.ac.in",
     },
   ],
   projects: [
