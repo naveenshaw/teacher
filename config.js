@@ -18,7 +18,7 @@ module.exports = {
     },
     {
       label: "Sister Nivedita University",
-      path: "/posts",
+      link: "https://www.snuniv.ac.in",
     },
     {
       label: "Achievements",
@@ -26,7 +26,7 @@ module.exports = {
     },
     {
       label: "About Me",
-      link: "https://snuniv.ac.in",
+      path: "/about",
     },
   ],
   projects: [
